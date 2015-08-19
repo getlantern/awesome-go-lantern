@@ -5,6 +5,35 @@ Cool libraries, frameworks, tips and tricks and anything that can be useful to s
 Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 
 
+## Networking
+
+* [Gopacket](https://github.com/google/gopacket) - Provides packet processing capabilities for Go.
+
+## Low-level Hacks
+
+*Low-level hacks, tools and techniques*
+
+* [Preeny](https://github.com/zardus/preeny) - Make it easier to interact with services locally. It can disable fork(), rand(), and alarm() and can convert a server application to a console one.
+
+
+## Testing
+
+*Testing utilities and libraries*
+
+* [Go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing (fuzzing). Mainly applicable to packages that parse complex inputs (both text and binary).
+* [Stress](https://godoc.org/golang.org/x/tools/cmd/stress) - The stress utility is intended for catching of episodic failures. It runs a given process in parallel in a loop and collects any failures.
+
+
+### Network-specific testing
+
+*Libraries for network testing.*
+
+* [Linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces.
+* [Toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
+* [Comcast](https://github.com/tylertreat/Comcast) - Simulation of bad network connections.
+* [Gor](https://github.com/buger/gor) - HTTP traffic replay in real-time. Replay traffic from production to staging and dev environments. Test code on real user sessions in an automated and repeatable fashion.
+
+
 ## Code Checking
 
 *Tools for checking code style and related*
@@ -38,27 +67,4 @@ Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 * GC tracing - ```GODEBUG=gctrace=1 go run <file.go>```
 * Scheduler tracing [(info)](http://www.goinggo.net/2015/02/scheduler-tracing-in-go.html) - ```GODEBUG=schedtrace=1000 go run <file.go>```
 * Generic tracing [(info)](https://docs.google.com/document/u/1/d/1FP5apqzBgr7ahCCgFO-yoVhk4YZrNIDNf9RybngBc14/pub) - The capability is compiled into all programs always, and is enabled on demand -- when tracing is disabled it has minimal runtime overhead. That is, the trace can be obtained from a server in production serving live traffic. For visualization, use Google's [trace viewer](https://github.com/google/trace-viewer), or type the URL ```chrome://tracing``` for an embedded UI in Chrome.
-
-
-## Low-level Hacks
-
-*Low-level hacks, tools and techniques*
-
-* [Preeny](https://github.com/zardus/preeny) - Make it easier to interact with services locally. It can disable fork(), rand(), and alarm() and can convert a server application to a console one.
-
-
-## Testing
-
-*Testing utilities and libraries*
-
-* [Go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing (fuzzing). Mainly applicable to packages that parse complex inputs (both text and binary).
-* [Stress](https://godoc.org/golang.org/x/tools/cmd/stress) - The stress utility is intended for catching of episodic failures. It runs a given process in parallel in a loop and collects any failures.
-
-### Network-specific testing
-
-*Libraries for network testing.*
-
-* [Linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces.
-* [Toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
-* [Comcast](https://github.com/tylertreat/Comcast) - Simulation of bad network connections.
-* [Gor](https://github.com/buger/gor) - HTTP traffic replay in real-time. Replay traffic from production to staging and dev environments. Test code on real user sessions in an automated and repeatable fashion.
+* [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
