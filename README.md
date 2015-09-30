@@ -5,16 +5,18 @@ Cool libraries, frameworks, tips and tricks and anything that can be useful to s
 Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 
 
+
+## General
+
+*General tools, hacks and techniques with wide usage*
+
+* [Preeny](https://github.com/zardus/preeny) - Make it easier to interact with services locally. It can disable fork(), rand(), and alarm() and can convert a server application to a console one.
+* [Ratelimit](https://github.com/bsm/ratelimit) - Simple, thread-safe Go rate-limiter.
+
+
 ## Networking
 
 * [Gopacket](https://github.com/google/gopacket) - Provides packet processing capabilities for Go.
-
-## Low-level Hacks
-
-*Low-level hacks, tools and techniques*
-
-* [Preeny](https://github.com/zardus/preeny) - Make it easier to interact with services locally. It can disable fork(), rand(), and alarm() and can convert a server application to a console one.
-
 
 ## Testing
 
