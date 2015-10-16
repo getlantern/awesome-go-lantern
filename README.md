@@ -45,6 +45,7 @@ Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 * [Toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulation of bad network connections.
 * [Gor](https://github.com/buger/gor) - HTTP traffic replay in real-time. Replay traffic from production to staging and dev environments. Test code on real user sessions in an automated and repeatable fashion.
+* [netem](http://www.linuxfoundation.org/collaborate/workgroups/networking/netem) -  Network Emulation functionality for testing protocols by emulating the properties of wide area networks. The current version emulates variable delay, loss, duplication and re-ordering.
 
 
 ## Code Checking
