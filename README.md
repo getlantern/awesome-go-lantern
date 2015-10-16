@@ -18,6 +18,17 @@ Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 
 * [Gopacket](https://github.com/google/gopacket) - Provides packet processing capabilities for Go.
 
+
+## Network Analysis Tools
+
+*Tools for interference detection, probing and network analysis in general*
+
+* [Netalyzr](http://n1.netalyzr.icsi.berkeley.edu/analysis/)
+* [OONI](https://github.com/TheTorProject/ooni-probe)
+* [Zmap](https://zmap.io/)
+* [NDT](http://www.measurementlab.net/tools/ndt)
+
+
 ## Testing
 
 *Testing utilities and libraries*
