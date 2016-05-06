@@ -48,12 +48,20 @@ Inspired by [awesome-go](https://github.com/avelino/awesome-go), for Lantern.
 * [netem](http://www.linuxfoundation.org/collaborate/workgroups/networking/netem) -  Network Emulation functionality for testing protocols by emulating the properties of wide area networks. The current version emulates variable delay, loss, duplication and re-ordering.
 
 
+### HTTP Load testing
+
+*Tools to generate HTTP traffic*
+
+* [Boom](https://github.com/rakyll/boom) - Similiar to Apache Bench but much simpler!
+* [Vegeta](https://github.com/tsenart/vegeta) - More features!
+
 ## Code Checking
 
 *Tools for checking code style and related*
 
 * [Errcheck](https://github.com/kisielk/errcheck) - Checking for unchecked errors in go programs.
 * [Golint](https://github.com/golang/lint) - A linter for Go source code.
+* [GoMetaLinter](https://github.com/alecthomas/gometalinter) - Concurrently runs a whole bunch of linters.
 
 
 ## Code Analysis
